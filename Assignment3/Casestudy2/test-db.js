@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB Atlas connection string with timeout settings
-const mongoURI = 'mongodb+srv://mevin224789_db_user:xfF5C9ek55aTAxvU@cluster0.bb9usjs.mongodb.net/employeeDB?retryWrites=true&w=majority&appName=Cluster0&serverSelectionTimeoutMS=30000&socketTimeoutMS=30000';
+const mongoURI = 'mongodb+srv://admin_user:SecurePass123@cluster0.mongodb.net/employeeDB?retryWrites=true&w=majority&appName=Cluster0&serverSelectionTimeoutMS=30000&socketTimeoutMS=30000';
 
 // Employee Schema
 const employeeSchema = new mongoose.Schema({
